@@ -1,0 +1,31 @@
+{
+  "name": "autocargosoftware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.globalex.manager",
+    "productName": "backendmanager",
+    "win": {
+      "target": "nsis",
+      "cscLink": false,
+      "icon": "pglog.jpg"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.2.1",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "net": "^1.0.2",
+    "tree-kill": "^1.2.2"
+  }
+}
